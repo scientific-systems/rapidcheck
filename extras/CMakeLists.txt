@@ -12,7 +12,7 @@ if (RC_ENABLE_GMOCK OR RC_INSTALL_ALL_EXTRAS)
   add_subdirectory(gmock)
 endif()
 
-option(RC_ENABLE_GTEST "Build Google Test integration" OFF)
+option(RC_ENABLE_GTEST "Build Google Test integration" ON)
 if (RC_ENABLE_GTEST OR RC_INSTALL_ALL_EXTRAS)
   add_subdirectory(gtest)
 endif()
